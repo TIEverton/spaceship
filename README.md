@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+  <h1 align="center">The spaceship project</h1>
+<p align="center">
+  <a href="https://www.linkedin.com/in/evertonpinheiroti/"><img src="https://img.shields.io/badge/linkedin-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  </a>
+  <img src="https://img.shields.io/static/v1?label=SPACE&style=for-the-badge&message=SPACESHIP&color=8257E5&labelColor=000000" alt="SPACESHIP" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔖 Summary
 
-## Available Scripts
+- [Project](#-project)
+- [Technologies](#-technologies)
+- [Getting started](#-getting-started)
+  - [Downloading the project](#%EF%B8%8F-downloading-the-project)
+  - [Running the Application](#-running-the-application)
 
-In the project directory, you can run:
+## 💻 Project
 
-### `yarn start`
+spaceship was a project developed with the intention of calculating how many stops are necessary to complete a journey while traveling in fictional outer space.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🔌 Technologies
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This project was developed using the following technologies:
 
-### `yarn test`
+- [ReactJS](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [testing-library](https://testing-library.com/)
+- [styled-components](https://styled-components.com/)
+- [ESLint](https://eslint.org)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting started
+**Before downloading and running the project**, you must have **Node.js** already installed and then install the following tools:
 
-### `yarn build`
+- [Git](https://git-scm.com/)
+- [Yarn](https://classic.yarnpkg.com/lang/en/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ⬇️ Downloading the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the project and access the folder
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone the repository and access the directory
+$ git clone https://github.com/TIEverton/spaceship.git && cd spaceship
 
-### `yarn eject`
+# Install the dependencies
+$ yarn
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 🏃 Running the application
+With the database running and being in the API directory, execute the following commands:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Run the application
+$ yarn start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Run the tests
+$ yarn test
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Made with ♥ by Everton Pinheiro 👋🏻
